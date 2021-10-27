@@ -1,0 +1,22 @@
+{
+  "name": "lesson16",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "node-sass --watch sass -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mirko40/Lesson16.git"
+  },
+  "author": "Mirko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mirko40/Lesson16/issues"
+  },
+  "homepage": "https://github.com/Mirko40/Lesson16#readme",
+  "devDependencies": {},
+  "keywords": [],
+  "description": ""
+}
