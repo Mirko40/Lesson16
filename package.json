@@ -1,6 +1,7 @@
 {
   "name": "lesson16",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,7 +17,8 @@
     "url": "https://github.com/Mirko40/Lesson16/issues"
   },
   "homepage": "https://github.com/Mirko40/Lesson16#readme",
-  "devDependencies": {},
-  "keywords": [],
-  "description": ""
+  "dependencies": {
+    "node-sass": "^6.0.1",
+    "sass-loader": "^12.3.0"
+  }
 }
