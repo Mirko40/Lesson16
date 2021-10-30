@@ -17,6 +17,13 @@ body {
 
 @font-face {
   font-family: "Bebas Neue";
+  font-style: regular;
+  font-weight: 400;
+  src: local("Bebas Neue");
+  src: url("../Fonts/BebasNeue Regular.otf"); }
+
+@font-face {
+  font-family: "Bebas Neue";
   font-style: bold;
   font-weight: 700;
   src: local("Bebas Neue");
@@ -71,6 +78,14 @@ body {
         font-weight: 300;
         font-family: "Bebas Neue";
         transform: translate(0, 30%); }
+    .container .left .head, .container .center .head, .container .right .head {
+      font-size: 24px;
+      letter-spacing: 1px;
+      color: #181818;
+      font-weight: 400;
+      font-family: "Bebas Neue";
+      margin-top: 20px;
+      text-align: center; }
     .container .left .inner--top, .container .center .inner--top, .container .right .inner--top {
       position: absolute;
       width: 100%;
