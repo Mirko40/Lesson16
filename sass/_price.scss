@@ -1,16 +1,23 @@
 @font-face {
     font-family: "Bebas Neue";
-    font-style: normal;
+    font-style: thin;
     font-weight: 100;
     src:local("Bebas Neue");
     src:url("../Fonts/BebasNeue\ Thin.otf");
 }
 @font-face {
     font-family: "Bebas Neue";
-    font-style: normal;
+    font-style: light;
     font-weight: 300;
     src:local("Bebas Neue");
     src:url("../Fonts/BebasNeue\ Light.otf");
+}
+@font-face {
+    font-family: "Bebas Neue";
+    font-style: bold;
+    font-weight: 700;
+    src:local("Bebas Neue");
+    src:url("../Fonts/BebasNeue\ Bold.otf");
 }
 .price {
 margin: auto;
@@ -29,7 +36,7 @@ height: 1000px;
     align-items: center;
     justify-content:space-between;
     align-self: center;
-}
+
 .left, .center, .right {
     width: 330px;
     height: 612px;
@@ -37,9 +44,9 @@ height: 1000px;
     margin-top: 200px;
     position:relative;
    
+   
     .text--price {
         height: 45px;
-       
         text-align: center;
         margin-top: 40px;
         display: flex;
@@ -96,5 +103,25 @@ transform: translate(0,30%);
     
     z-index: 1;
 }
+.button {
+    text-align: center;
+    width: 205px;
+    height: 55px;
+    background-color:#6FCFFB ;
+    border-radius: 55px;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position:absolute;
+    z-index: 2;
+    font-size: 18px;
+letter-spacing: 1px;
+line-height: 53px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Bebas Neue";
 
 }
+
+
+}}
