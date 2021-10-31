@@ -148,3 +148,5 @@ body {
   .container .left:hover, .container .center:hover, .container .right:hover {
     width: 370px;
     height: 692px; }
+  .container .left:hover .button, .container .center:hover .button, .container .right:hover .button {
+    background-color: #FD8D7B; }
