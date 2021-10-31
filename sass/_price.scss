@@ -144,8 +144,19 @@ font-family: "Roboto";
     left: 0;
     top: 50%;
     background: #FFFFFF;
-    
     z-index: 1;
+}
+.bottom--text {
+    font-size: 11px;
+line-height: 53px;
+color: #a9a9a9;
+font-weight: 300;
+font-family: "Roboto";
+position:absolute;
+z-index: 2;
+top: 88%;
+left:30%;
+display: none;
 }
 .button {
     text-align: center;
@@ -179,5 +190,8 @@ font-family: "Bebas Neue";
    }
    .left:hover  .inner--bot, .center:hover .inner--bot, .right:hover .inner--bot {
     top: 47%;  
+   }
+   .left:hover .bottom--text, .center:hover .bottom--text, .right:hover .bottom--text{
+       display: block;
    }
 }
