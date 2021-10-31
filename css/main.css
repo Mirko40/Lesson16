@@ -123,7 +123,7 @@ body {
     .container .left .inner--bot, .container .center .inner--bot, .container .right .inner--bot {
       position: absolute;
       width: 100%;
-      height: 40%;
+      height: 35%;
       left: 0;
       top: 50%;
       background: #FFFFFF;
@@ -149,4 +149,7 @@ body {
     width: 370px;
     height: 692px; }
   .container .left:hover .button, .container .center:hover .button, .container .right:hover .button {
-    background-color: #FD8D7B; }
+    background-color: #FD8D7B;
+    top: 82%; }
+  .container .left:hover .inner--bot, .container .center:hover .inner--bot, .container .right:hover .inner--bot {
+    top: 47%; }
