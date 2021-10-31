@@ -55,6 +55,68 @@ body {
     margin-top: 200px;
     margin-left: 25px;
     position: relative; }
+    .container .left .popular, .container .center .popular, .container .right .popular {
+      display: none; }
+      .container .left .popular .circle1, .container .center .popular .circle1, .container .right .popular .circle1 {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        width: 2px;
+        height: 2px;
+        border-radius: 50%;
+        background-color: #fd8d7b;
+        border: 1px solid #fd8d7b; }
+      .container .left .popular .circle2, .container .center .popular .circle2, .container .right .popular .circle2 {
+        position: absolute;
+        right: 14px;
+        top: 14px;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background-color: #fd8d7b;
+        border: 2px solid #fd8d7b; }
+      .container .left .popular .circle3, .container .center .popular .circle3, .container .right .popular .circle3 {
+        position: absolute;
+        right: 25px;
+        top: 25px;
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        background-color: #fd8d7b;
+        border: 2px solid #fd8d7b;
+        font-size: 24px;
+        line-height: 45px;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: "Bebas Neue";
+        text-align: center; }
+      .container .left .popular .text--popular, .container .center .popular .text--popular, .container .right .popular .text--popular {
+        text-align: center;
+        width: 100px;
+        height: 30px;
+        background-color: #3b4040;
+        border-radius: 30px;
+        top: 20px;
+        right: -35px;
+        position: absolute;
+        z-index: 3;
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 30px;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: "Bebas Neue";
+        transform: translate(50%, 50%); }
+      .container .left .popular .text--popular:before, .container .center .popular .text--popular:before, .container .right .popular .text--popular:before {
+        content: "";
+        width: 0;
+        height: 0;
+        position: absolute;
+        right: 76px;
+        top: calc(50% - 15px);
+        border-top: 15px solid transparent;
+        border-right: 30px solid #3b4040;
+        border-bottom: 15px solid transparent; }
     .container .left .text--price, .container .center .text--price, .container .right .text--price {
       height: 45px;
       text-align: center;
@@ -135,10 +197,9 @@ body {
       font-weight: 300;
       font-family: "Roboto";
       position: absolute;
-      z-index: 2;
+      z-index: -1;
       top: 88%;
-      left: 30%;
-      display: none; }
+      left: 30%; }
     .container .left .button, .container .center .button, .container .right .button {
       text-align: center;
       width: 205px;
@@ -165,4 +226,6 @@ body {
   .container .left:hover .inner--bot, .container .center:hover .inner--bot, .container .right:hover .inner--bot {
     top: 47%; }
   .container .left:hover .bottom--text, .container .center:hover .bottom--text, .container .right:hover .bottom--text {
+    z-index: 2; }
+  .container .center:hover .popular {
     display: block; }
