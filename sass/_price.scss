@@ -209,9 +209,9 @@ font-family: "Roboto";
 .inner--bot{
     position:absolute;
     width: 100%;
-    height: 45%;
+    height: 40%;
     left: 0;
-    top: 45%;
+    top: 50%;
     background: #FFFFFF;
     z-index: 1;
    
@@ -258,9 +258,11 @@ font-family: "Bebas Neue";
    .left:hover .button,  .center:hover .button, .right:hover .button{
     background-color: #FD8D7B;
     top: 85%;
+    transform: translate(-50%,-50%);
    }
+
    .left:hover  .inner--bot, .center:hover .inner--bot, .right:hover .inner--bot {
-    top: 40%;  
+    top: 45%;  
    }
    .left:hover .bottom--text, .center:hover .bottom--text, .right:hover .bottom--text{
     z-index: 2;
